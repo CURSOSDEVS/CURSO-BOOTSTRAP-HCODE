@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - Alinhamento Horizontal</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+   
+    <div class="container">
+        <p>Flex-row é o padrão do flexbox. Vamos alinhar os 
+            elementos no eixo Horizontal
+        </p>
+        <hr>
+        <p>Utilizando as classe 'd-flex' e 'justify-content-start' nada
+            muda pois esse alinhamento já é o padrão.
+        </p>
+        <div class="d-flex justify-content-start bg">
+            <div class="bg p-2">1</div>
+            <div class="bg p-2">2</div>
+            <div class="bg p-2">3</div>
+        </div>
+        <br>
+        <p>Utilizando as classe 'd-flex' e 'justify-content-end' o conteúdo 
+            será alinhado no final do container.
+        </p>
+        <div class="d-flex justify-content-end bg">
+            <div class="bg p-2">1</div>
+            <div class="bg p-2">2</div>
+            <div class="bg p-2">3</div>
+        </div>
+        <br>
+        <p>Utilizando as classe 'd-flex' e 'justify-content-center' o conteúdo 
+            será alinhado no centro do container.
+        </p>
+        <div class="d-flex justify-content-center bg">
+            <div class="bg p-2">1</div>
+            <div class="bg p-2">2</div>
+            <div class="bg p-2">3</div>
+        </div>
+        <br>
+        <p>Utilizando as classe 'd-flex' e 'justify-content-between' o conteúdo 
+            terá a mesma distância entre os elementos dentro do container porém
+            o conteúdo irá iniciar colado no inicio e fim do container.
+        </p>
+        <div class="d-flex justify-content-between bg">
+            <div class="bg p-2">1</div>
+            <div class="bg p-2">2</div>
+            <div class="bg p-2">3</div>
+        </div>
+        <br>
+        <p>Utilizando as classe 'd-flex' e 'justify-content-around' o conteúdo 
+            será separado dentro do container tendo o mesmo 
+            espaço no inicio, entre eles e no final.
+        </p>
+        <div class="d-flex justify-content-around bg">
+            <div class="bg p-2">1</div>
+            <div class="bg p-2">2</div>
+            <div class="bg p-2">3</div>
+        </div>
+        
+        
+        
+    </div>
+   
+   <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+</html>
