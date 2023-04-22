@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - Alinhamento Eixo Secundário</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+   
+    <div class="container">
+        <p> O alinhamento do eixo principal será o 'justify-content' 
+            e o alinhamento do eixo secundário será o 'aling-items'
+        </p>
+        <hr>
+        <p>Utilizando as classe 'd-flex' e 'align-items-stretch' vemos que
+            o conteúdo ocupou todo espaço na vertical.
+        </p>
+        <div class="d-flex align-items-stretch bg" style="height: 200px;">
+            <div class="bg p-2">1</div>
+            <div class="bg p-2">2</div>
+            <div class="bg p-2">3</div>
+        </div>
+        <hr>
+        <p>Utilizando somente a classe 'd-flex' veremos que ele ainda irá ocupar todo espaço
+            pois strech é o padrão.
+        </p>
+        <div class="d-flex bg" style="height: 200px;">
+            <div class="bg p-2">1</div>
+            <div class="bg p-2">2</div>
+            <div class="bg p-2">3</div>
+        </div>
+        <hr>
+        <p>Utilizando as classe 'd-flex' e 'aling-items-start' o 
+            conteúdo será alinhado na parte superior..
+        </p>
+        <div class="d-flex align-items-start bg" style="height: 200px;">
+            <div class="bg p-2">1</div>
+            <div class="bg p-2">2</div>
+            <div class="bg p-2">3</div>
+        </div>
+        <hr>
+        <p>Utilizando as classe 'd-flex' e 'aling-items-end' o 
+            conteúdo será alinhado na parte inferior..
+        </p>
+        <div class="d-flex align-items-end bg" style="height: 200px;">
+            <div class="bg p-2">1</div>
+            <div class="bg p-2">2</div>
+            <div class="bg p-2">3</div>
+        </div>
+        <hr>
+        <p>Utilizando as classe 'd-flex' e 'aling-items-center' o 
+            conteúdo será alinhado na parte central..
+        </p>
+        <div class="d-flex align-items-center bg" style="height: 200px;">
+            <div class="bg p-2">1</div>
+            <div class="bg p-2">2</div>
+            <div class="bg p-2">3</div>
+        </div>
+        <hr>
+        <p>Utilizando as classe 'd-flex' e 'aling-items-baseline' o 
+            conteúdo será alinhado na parte superior..
+        </p>
+        <div class="d-flex align-items-baseline bg" style="height: 200px;">
+            <div class="bg p-2">1</div>
+            <div class="bg p-2">2</div>
+            <div class="bg p-2">3</div>
+        </div>
+
+        
+    </div>
+   
+   <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+</html>
