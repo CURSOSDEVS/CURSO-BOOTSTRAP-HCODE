@@ -1,0 +1,13 @@
+.container {
+    padding: 2rem;
+}
+
+/* todo col que for filho de um row */
+/* todo row que possui uma classe inicial col */
+.row > .col,
+.row [class^=col-] {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(243, 117, 32, 0.15);
+    border: 1px solid rgba(243, 117, 32, 0.2);;
+}
