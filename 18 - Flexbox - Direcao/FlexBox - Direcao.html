@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Direção</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+   
+    <div class="container">
+        <p>Veremos a classe flex-row para exibir os elementos em linha 
+            e alterar a ordem dos elementos'
+        </p>
+        <hr>
+        <p>Utilizando 'flex-row', não irá mudar nada pois o padrão 
+            de exibição é sempre row.
+        </p>
+        <div class="d-flex flex-row bg">
+            <div class="bg p-2">1</div>
+            <div class="bg p-2">2</div>
+            <div class="bg p-2">3</div>
+        </div>
+        <p>Utilizando 'flex-row-reverse', será alterada a ordem de exibição
+            dos elementos.
+        </p>
+        <div class="d-flex flex-row-reverse bg">
+            <div class="bg p-2">1</div>
+            <div class="bg p-2">2</div>
+            <div class="bg p-2">3</div>
+        </div>
+        
+    </div>
+   
+   <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+</html>
