@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Systems Nesting</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+   
+    <div class="container">
+        <div class="row">
+
+            <p>Vamos ver como funciona o alinhamento dos elementos
+                utilizando a classe col md e por diante.
+            </p>
+            <hr>
+            <div class="row">
+                <div class="col-12">
+                    Nível:1 - 12 colunas
+
+                    <div class="row">
+                        <div class="col-8">
+                            Nivel: 2 - 8 colunas
+
+                            <div class="row">
+                                <div class="col-3"> Nivel: 3 - 3 colunas</div>
+                                <div class="col-9">Nivel: 3 - 9 colunas</div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-4">Nivel: 2 -  4 colunas</div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+   
+   <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+</html>
